@@ -18,7 +18,7 @@
     <div id="current-event" style="position: absolute; top: 35px; font-size: 25px; width: 475px; word-wrap: break-word; left: 35%; vertical-align: middle; padding: 1px;" class="flashtext unselectable" align="center">Current events will<br>show up here.</div>
   
   
-    <div class="img-with-text" display=""><img src="" alt="hi!" draggable="false" width=50px, height=auto, style="float:left"><p style="padding: 15px; padding-left: 60px; padding-top: 8px" id="brookeafk-com">brookeafk.com</p><span style="position:relative; left:60px; top:-40px;" id="settings" onclick="SettingsMenu()" class="hand_cursor">View Settings</span>
+    <div class="img-with-text" display=""><img src="" alt="hi!" draggable="false" width=50px, height=auto, style="float:left"><p style="padding: 15px; padding-left: 60px; padding-top: 8px" id="Biblo">Biblo</p><span style="position:relative; left:60px; top:-40px;" id="settings" onclick="SettingsMenu()" class="hand_cursor">View Settings</span>
     </div>
   
     <div style="background: #314; padding: 5px; width: 120px; height: 32px; position: absolute; left: 300px; top: 24px; border-radius: 25px; display:flex; align-items: center; vertical-align:center; justify-content: center;
@@ -93,10 +93,7 @@
   var VisibleEvents = ["Quick Maths","Dragon Egg","2x Rewards","Care Package","KOTL","KOTH","Auction","Giant Cake","All bounty","Squads","Beast","Pizza","Rage Pit","Spire","Robbery","Blockhead","Raffle","Team Deathmatch"];
   var AudioEvents = [];
   
-  var praise_quotes = [`You're crazy.`,"So good brooke.","Cool but seek help please","Brookeafk.com so good","she's insane in the head","brooke your so smart in my opnion","brooke is such a good pit player","your site is fucking incredible","this is actually amazing wtf","brooke is awesome","great site, I get to see every event I love happen while I'm at school!","very simple and great colors","ty for ur amazing website &#10084;","best pit website","the site looks good.","brooke is poger","i lvoe bgorokecrazfft.com",`i find your website really useful, specially when i have the game closed`,"Your website is quite useful actually"]
-  var praise_names = ["Andrew","Ellie","oSnapL","1Mad","Emma","catweapon","Twen","C4PS","vnmm","Vermasium","Stampy_fan2","swux","TheSKYeagle","julikabum","McPqndq","clouby","Brano","Ticha","Working"]
-  var praise_urls = ["http://deviantart.com/hextant","https://twitter.com/ellwixd","https://twitter.com/oSnapLLL","https://youtu.be/dQw4w9WgXcQ","https://twitter.com/cutekitty271","https://namemc.com/profile/354aa68a43694ba29ff23c705dfc11e6","https://twitter.com/KinderFissa","https://twitter.com/c4pshypixel","https://vnmm.dev/","https://namemc.com/profile/9f65cdd1-81d7-49f3-8d41-fef76a7a8768","https://hypixel.net/members/probot.1901786/","https://www.tiktok.com/@swuxify_","https://twitter.com/leskyeagle","https://twitter.com/julikabum_0","https://pitpanda.rocks","https://brookeafk.com","https://twitter.com/branodon","https://pitpanda.rocks/players/18fe5844ce244d11ad3435c96435900f","https://twitter.com/WorkingMC"]
-  //Note: Jojo's cock is seven inches (18cm) long. I've been forced to write this, unfortunately. Sorry that you had to read this.
+  
   var AllSettings = ['visible','notifs','palette','timestamps','theme','flashing','reminder','desktop','audio']
   var event_sound = new Audio("event_arriving.mp3");
   event_sound.volume = 0.2;
@@ -121,10 +118,10 @@
     document.getElementById("current-event").setAttribute("id","replacement")
     document.getElementById("Biblo").setAttribute("id","current-event")
     document.getElementById("replacement").setAttribute("id","Biblo")
-    document.getElementById("current-event").innerHTML = "brookeafk.com (mobile)"
+    document.getElementById("current-event").innerHTML = "Biblo (mobile)"
     document.getElementById("Biblo").innerHTML = ""
     document.getElementById("current-event").style.width = "200px"
-    WithoutVar = "brookeafk.com"
+    WithoutVar = "Biblo"
   }
   
   document.getElementById('settings').style.color = NormalText;
@@ -549,8 +546,7 @@
   }
     var o = document.createElement("p");
     o.id = "made_with_love";
-    o.innerHTML = (`<span style="position:relative; left: 10px;">Made with love and tears by <a href="https://twitter.com/BrookeAFK" target="_blank" rel="noopener">BrookeAFK</a></span>`);
-    document.body.appendChild(o);
+    
   
     var p = document.createElement("p");
     console.log("Added footer.");
@@ -637,7 +633,7 @@
       //document.getElementById('event_' + String(i)).remove();
       document.getElementById('event_' + String(i)).style.display = "none";
       window.HiddenEventCount = window.HiddenEventCount + 1; 
-      console.log("hey if you see this please let Brooke know as this should Not happen lol");
+      console.log("hey if you see this please let Biblo know as this should Not happen lol");
     }
    }
   }
